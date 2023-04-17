@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    
+}
+
+html {
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: hidden;
+    color: brown;
+    background-color: gray;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    width: 82%;
+    padding: 2rem 9%; /*esse padding retardado que ta esculachando o 100% de width*/
+    background-color: black; /*var*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+header .logo {
+    font-size: 20px;
+    color: white;  
+    cursor: default;
+    font-weight: bold;
+}
+
+/*
+.navbar a {
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;;
+    transition: 0.3s;
+} 
+
+.navbar a:hover {
+    color: brown;
+}
+
+#menu-icon {
+    font-size: 60px;
+    color: white;
+    display: none;
+} */
+
+/*-----------------------------------------------*/
+
+section {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section .home-img img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+section .home-content h3 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+section .home-content h1 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+span {
+    color: white;
+    font-weight: bold;
+}
+
+section .home-content p {
+    font-size: 25px;
+    font-weight: bold; 
+    margin-top: 30px;
+    width: 800px;
+    margin-right: 50px;
+}
+
+.social-media {
+    margin-left: 250px;
+}
+
+.btn {
+    margin-left: 235px;
+}
+
+section .social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: .2rem solid brown;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: brown;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+
+.social-media a:hover {
+    color: white;
+    box-shadow: 0 0 4rem white;
+}
+
+.btn {
+    padding: 10px 28px;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    color: brown;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    color:  white;
+    background-color: brown;
+    box-shadow: 0 0 4rem white;
+}
+
+/*-----------------------------------------------------*/
+
+/*
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-container .services-box {
+    
+    background-color: brown;
+    padding: 20px;
+    text-align: center;
+    border: .2rem solid white;
+    transition: .5s ease;
+    margin: 30px;
+}
+
+.services-container .services-box:hover {   
+    transform: scale(1.02);
+}
+
+.services-box i {
+    font-size: 60px;
+    color: white;
+}
+
+.services-box h3 {
+    font-size: 30px;
+    color: white;
+}
+
+.services-box p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: white;
+} */
